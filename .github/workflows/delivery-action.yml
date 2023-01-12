@@ -73,9 +73,9 @@ jobs:
 
       - name: Create a Tag for the new release
         uses: rickstaa/action-create-tag@v1
-        #with:
+        with:
         #  token: ${{ env.PAT }}
-        #  tag: ${{ env.CURRENT_VERSION }}
+          tag: ${{ env.CURRENT_VERSION }}
 
       #- run: git add .
       #- run: git commit -m "Release "$NEXT_VERSION
