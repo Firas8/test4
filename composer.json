@@ -1,0 +1,23 @@
+{
+    "name": "zento/zento.fr",
+    "description": "site vitrine de l'entreprise zento",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Zento\\ZentoFr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RomainZento",
+            "email": "romain.moizant@zento.fr"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "version": "1.0.0",
+        "release_date": "22-11-2023"
+    }
+}
